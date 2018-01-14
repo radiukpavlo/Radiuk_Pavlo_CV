@@ -11,6 +11,11 @@
 \usepackage{latexsym}
 \usepackage{amssymb}
 \usepackage{hyperref}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage[babel=true]{microtype}
+\usepackage{tempora}  % Times for numbers in math mode
+\usepackage{newtxmath}  % Times in math mode
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
 
@@ -52,7 +57,6 @@
 \ \ \texttt{radiukpavlo@gmail.com} \textbullet
 \ \ +38 (097) 851 94 48 
 \\
-\href{https://www.facebook.com/radiukpasha}{Facebook account} \textbullet
 \ \ \href{https://www.linkedin.com/in/pavlo-radiuk-487029123/}{LinkedIn account} \textbullet
 \ \ \href{https://github.com/soolstafir}{Github repository}
 \\
@@ -77,6 +81,10 @@ Khmelnytsky, Ukraine
 Informatics, Ph.D. Applied Mathematics}}
 		{\emph{09/2017 -- Present}}
 	\begin{itemize*}
+		\item For research purposes created several Python scripts to recognize images of diverse datasets using TensorFlow and MATLAB as a part of the doctoral thesis.
+	\end{itemize*}
+	
+	\begin{itemize*}
 		\item Thesis: \emph{Methods of optimization of architectural and training parameters of convolutional neural networks for classification tasks of medical diagnostics static images}
 	\end{itemize*}
 	
@@ -87,14 +95,24 @@ Informatics, Ph.D. Applied Mathematics}}
 	\\
 	\headerrow
 		{\emph{Department of Applied Mathematics and Social 
-Informatics, Master of Science}}
+Informatics, Master of Science \footnote{\url{https://drive.google.com/open?id=1a10K3d_8TxrRu7NT-zE5a6jSWdQLITic}}}}
 		{\emph{09/2011 -- 01/2017}}
+	
+	\begin{itemize*}
+		\item Had to deal with tracking cars in MATLAB environment. Developed an application for selecting the optimal parameters for the tracking system based on collected by myself statistics.
+	\end{itemize*}
+	
+	\begin{itemize*}
+		\item Worked on the creation of a system to produce a linear regression model and its research. Task was to create a class on C\# in Visual Studio. The class collected results of major operations on matrices, such as multiplication of matrices, transpose matrices, inverse matrices, etc.
+	\end{itemize*}
+	
 	\begin{itemize*}
 		\item Obtained master's degree in the field of Mathematical and Computer Modeling and qualification of Mathematician-analyst, the teacher of a higher educational institution.
 	\end{itemize*}
-	 \begin{itemize*}
+	
+	\begin{itemize*}
 		\item Thesis: \emph{Optimization of filter's size distribution in convolutional neural networks for classification problems}
-	 \end{itemize*}
+	\end{itemize*}
 
 \end{itemize}
 
@@ -107,135 +125,53 @@ Informatics, Master of Science}}
 	
 	\item
 	\headerrow
-		{\textbf{\href{http://www.aylien.com/}{AYLIEN}}}
-		{\textbf{Dublin, Ireland}}
+		{\textbf{Khmelnytskyi National University}}
+		{\textbf{Khmelnytsky, Ukraine}}
 	\\
 	\headerrow
-		{\emph{Research Scientist}}
-		{\emph{10/2015 -- Present}}
+		{\emph{Senior Laboratory Assistant}}
+		{\emph{12/2016 -- 08/2017}}
 	\begin{itemize*}
-		\item Developed aspect-based sentiment analysis (ABSA) endpoint\footnote{\url{https://developer.aylien.com/text-api-demo?tab=absa}} and created sentiment analysis models on-par with state-of-the-art\footnote{\url{https://developer.aylien.com/text-api-demo?tab=sentiment}}.
-		\item Developed models for a novel form of stance detection from scratch. Collected data, crowd-sourced annotations, and iterated upon the models in dialogue with the customer.
-		\item My current work focuses on productizing research insights by developing efficient transfer learning algorithms and state-of-the-art models for novel problems as well as existing applications such as stance detection and emotion detection.
-	\end{itemize*}
-
-	\item
-	\headerrow
-		{\textbf{IBM}}
-		{\textbf{Munich, Germany}}
-	\\
-	\headerrow
-		{\emph{Extreme Blue Intern, Watson}}
-		{\emph{08/2015 -- 09/2015}}
-	\begin{itemize*}	
-		\item Design and implementation of text analysis ML components applied to customer data of leading German insurance company \emph{Versicherungskammer Bayern}; automatically identifies structural semantics and sentiment of incoming e-mails, e.g. complaints and classifies email based on reason for complaint.
-		\item Pitched project to audience at European Expo and was chosen as one of eight teams to pitch to IBM customers; project was referred to as a "lighthouse project for Watson in Europe" by jury members.
-		\item Project was awarded Digital Thought Leadership award in leading contest of German insurance industry by leading German newspaper \emph{Süddeutsche Zeitung} and Google\footnote{\url{https://www.sv-veranstaltungen.de/site/fachbereiche/versicherungs-leuchtturm}} and covered by \emph{Süddeutsche Zeitung}\footnote{\url{http://www.sueddeutsche.de/wirtschaft/kuenstliche-intelligenz-aerger-fuer-watson-1.2772927}}.
-	\end{itemize*}
-
-	\item
-	\headerrow
-		{\textbf{Microsoft}}
-		{\textbf{Dublin, Ireland}}
-	\\
-	\headerrow
-		{\emph{Linguistic Engineering Intern, XBox}}
-		{\emph{02/2015 -- 06/2015}}
-	\begin{itemize*}
-		\item Contributed to developing an ML system for analyzing linguistic complexity of strings in C\# for localization prioritization during testing; performed feature analysis and framed problem as anomaly detection.
-		\item Created proof of concept and implemented morphology-based terminology validation algorithm.
-		\item Evangelized customer sentiment analysis efforts, drove cross-team collaboration, and provided insights to stakeholders.
-	\end{itemize*}
-
-	\item
-	\headerrow
-		{\textbf{The OpenCog Foundation}}
-		{\url{opencog.org}}
-	\\
-	\headerrow
-		{\emph{Google Summer of Code Intern}}
-		{\emph{Summer 2014}}
-	\begin{itemize*}
-		\item Implemented deductive reasoning algorithms to enable a model to make common-sense inferences, e.g. \emph{All men are mortal. Socrates is a man.} $\rightarrow$ \emph{Socrates is mortal.}
-		\item Applied inference using probabilistic logic networks on the output of a relationship extractor.
-		\item Documented and extended Python code for temporal inference.
-	\end{itemize*}
-
-	\item
-	\headerrow
-		{\textbf{Lingenio GmbH}}
-		{\textbf{Heidelberg, Germany}}
-	\\
-	\headerrow
-		{\emph{Software Engineering Intern}}
-		{\emph{Spring 2014}}
-	\begin{itemize*}
-		\item Created a converter from TBX to Lingenio native format and vice versa.
-		\item Integrated TBX term bases in Dictionary Server; created localized web service using Jinja2, Flask-Babel, and lighttpd.
-	\end{itemize*}
-
-	\item
-	\headerrow
-		{\textbf{SAP}}
-		{\textbf{Walldorf, Germany}}
-	\\
-	\headerrow
-		{\emph{Working Student, Development University}}
-		{\emph{02/2013 -- 02/2014}}
-	\begin{itemize*}
-		\item Created content for internal programming and Design Thinking courses.
-		\item Automated reporting processes, e.g. reduced expenditure of work for monthly training report from 8 hours to 2 hours using Excel / VBA scripts.
-	\end{itemize*}
-
-	\item
-	\headerrow
-		{\textbf{TEMIS}}
-		{\textbf{Heidelberg, Germany}}
-	\\
-	\headerrow
-		{\emph{Freelancing Developer}}
-		{\emph{02/2013 -- 10/2013}}
-	\begin{itemize*}
-		\item Created a cosine metric-based word sense disambiguation system leveraging text extracted from Wikipedia and DBpedia dumps; achieved performance comparable to the state-of-the-art.
+		\item Provided the maintenance of computer equipment, software, and a local computer lab network.
+		\item Carried out the administration both of workplaces and users of the computer lab.
+		\item Prepared the materials, control instruments, and multimedia, that are necessary for the implementation of the educational process.
 	\end{itemize*}
 
 \end{itemize}
 
-
-\hrule
-\vspace{-0.4em}
-\subsection*{Awards}
-
-\begin{itemize}
-	\parskip=0.1em
-	
-	\item 
-	\headerrow
-		{Scholarship of the Irish Research Council}
-		{\emph{10/2015 -- Present}}
-	\item 
-	\headerrow
-		{\emph{Cusanuswerk} scholarship of the German state}
-		{\emph{04/2014 -- 09/2015}}	
-	\item 
-	\headerrow
-		{Microsoft Certified Professional (Programming in C\#)}
-		{\emph{06/2015}}
-	\item 
-	\headerrow
-		{Best Delegate award in various Model United Nations conferences}
-		{\emph{11/2012 -- 01/2014}}
-	\item 
-	\headerrow
-		{Second and third prizes \emph{Bundeswettbewerb Fremdsprachen}, national foreign languages competition}
-		{\emph{2007 -- 2008}}
-	\item 
-	\headerrow
-		{First and second prizes \emph{Landeswettbewerb Mathematik}, state mathematics competition}
-		{\emph{2006 -- 2008}}
-	
-
-\end{itemize}
+%\hrule
+%\vspace{-0.4em}
+%\subsection*{Awards}
+%
+%\begin{itemize}
+%	\parskip=0.1em
+%	
+%	\item 
+%	\headerrow
+%		{Scholarship of the Irish Research Council}
+%		{\emph{10/2015 -- Present}}
+%	\item 
+%	\headerrow
+%		{\emph{Cusanuswerk} scholarship of the German state}
+%		{\emph{04/2014 -- 09/2015}}	
+%	\item 
+%	\headerrow
+%		{Microsoft Certified Professional (Programming in C%\#)}
+%		{\emph{06/2015}}
+%	\item 
+%	\headerrow
+%		{Best Delegate award in various Model United Nations conferences}
+%		{\emph{11/2012 -- 01/2014}}
+%	\item 
+%	\headerrow
+%		{Second and third prizes \emph{Bundeswettbewerb Fremdsprachen}, national foreign languages competition}
+%		{\emph{2007 -- 2008}}
+%	\item 
+%	\headerrow
+%		{First and second prizes \emph{Landeswettbewerb Mathematik}, state mathematics competition}
+%		{\emph{2006 -- 2008}}	
+%
+%\end{itemize}
 
 \hrule
 \vspace{-0.4em}
@@ -245,31 +181,15 @@ Informatics, Master of Science}}
 \hyphenpenalty=1000
 \begin{description*}
 	\item[Programming Languages:]
-	Python, Java, C\#, R, C, \LaTeX, Prolog, JavaScript, SPARQL
+	Python, C\# (academic level), SQL, \LaTeX, MATLAB
 	\item[Technologies:]
-	SciPy, NumPy, Keras, TensorFlow, DyNet, scikit-learn, NLTK, CoreNLP, MALLET, Weka, UNIX, Git
-	\item[Natural Languages:]
-	Fluent in German and English, advanced in French and Spanish, beginner in Portuguese and Latin	
+	SciPy, NumPy, Keras, TensorFlow, Google Analytics, Git, Docker
+	\item[Languages:]
+	Fluent in Ukrainian and Russian, advanced in English
 	\item[Open Source Contributions:]
 	The OpenCog Foundation
 \end{description*}
 \end{indentsection}
-
-\hrule
-\vspace{-0.4em}
-\subsection*{Other activities}
-
-\begin{itemize}
-	\parskip=0.1em
-		\item 
-	\headerrow
-		{\textbf{Natural Language Processing Dublin organizer}}
-		{\emph{08/2016 -- Present}}
-	\begin{itemize*}
-		\item Organized 9 events. Meetup\footnote{\url{https://www.meetup.com/NLP-Dublin/}} has 500+ members and connects students, researchers, and industry professionals.
-	\end{itemize*}
-
-\end{itemize}
 
 \hrule
 \vspace{-0.4em}
@@ -278,67 +198,11 @@ Informatics, Master of Science}}
 \begin{enumerate}
 	\parskip=0.1em
 	
-	\item Sebastian Ruder, Ivan Vulić, Anders Søgaard (2017). \href{https://arxiv.org/abs/1706.04902}{A Survey Of Cross-lingual Word Embedding Models}. arXiv preprint arXiv:1706.04902.
+	\item Радюк П. М. Реалізація нейромережевого алгоритму пакета інструментів MatConvNet з використанням графічного процесора [Текст] / П. М. Радюк, В. В. Романюк, Н. В. Грипинська. // Сборник трудов X Международной научной конференции "Наука и образование". – 2017. – №10. – С. 60–65.
 	
-	\item Sebastian Ruder, Barbara Plank (2017). \href{https://arxiv.org/abs/1707.05246}{Learning to select data for transfer learning with Bayesian Optimization}. In \textit{Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing}, Copenhagen, Denmark.
-	
-	\item Sebastian Ruder (2017). \href{https://arxiv.org/abs/1706.05098}{An Overview of Multi-Task Learning in Deep Neural Networks}. arXiv preprint arXiv:1706.05098.
-	
-	\item Sebastian Ruder, Joachim Bingel, Isabelle Augenstein, Anders Søgaard (2017). \href{https://arxiv.org/abs/1705.08142}{Sluice networks: Learning what to share between loosely related tasks}. arXiv preprint arXiv:1705.08142.
-	
-	\item Sebastian Ruder, Parsa Ghaffari, John G. Breslin (2017). \href{https://arxiv.org/abs/1702.02426}{Data Selection Strategies for Multi-Domain Sentiment Analysis}. arXiv preprint arXiv:1702.02426.
-	
-	\item Sebastian Ruder, Parsa Ghaffari, John G. Breslin (2017). \href{https://arxiv.org/abs/1702.02052}{Knowledge Adaptation: Teaching to Adapt}. arXiv preprint arXiv:1702.02052.
-	
-	\item Sebastian Ruder, Parsa Ghaffari, John G. Breslin (2016). Towards a continuous modeling of natural language domains. In \textit{Proceedings of EMNLP 2016 Workshop on Uphill Battles in Language Processing: Scaling Early Achievements to Robust Methods}, pages 53-57, Austin, Texas, US.
-	
-	\item Sebastian Ruder, Parsa Ghaffari, John G. Breslin (2016). A Hierarchical Model of Reviews for Aspect-based Sentiment Analysis. In \textit{Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing}, pages 999–1005, Austin, Texas, US.
-	
-	\item Ian D. Wood and Sebastian Ruder (2016). \href{http://gsi.dit.upm.es/esa2016/Proceedings-ESA2016.pdf}{Emoji as emotion tags for tweets}. In \textit{Emotion and Sentiment Analysis Workshop, LREC}, Portorož, Slovenia.
-	
-	\item Sebastian Ruder, Peiman Barnaghi, John G. Breslin (2016). Analysis and Applications of a Novel Corpus of Influencers on Twitter. In \textit{Twitter for Research Conference}, Galway, Ireland.
-	
-	\item Sebastian Ruder, Parsa Ghaffari, John G. Breslin (2016). \href{http://www.anthology.aclweb.org/S/S16/S16-1026.pdf}{INSIGHT-1 at SemEval-2016 Task 4: Convolutional Neural Networks for Sentiment Classification and Quantification}. In \textit{Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval 2016)}, San Diego, US.
-	
-	\item Sebastian Ruder, Parsa Ghaffari, John G. Breslin (2016). \href{http://www.aclweb.org/anthology/S/S16/S16-1053.pdf}{INSIGHT-1 at SemEval-2016 Task 5: Convolutional Neural Networks for Multilingual Aspect-based Sentiment Analysis}. In \textit{Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval 2016)}, San Diego, US.
-	
-	\item Sebastian Ruder (2016). \href{https://arxiv.org/pdf/1609.04747.pdf}{An overview of gradient descent optimization algorithms}. arXiv preprint arXiv:1609.04747.
+	\item Radiuk, P. \href{https://doi.org/10.1515/itms-2017-0003}{Impact of Training Set Batch Size on the Performance of Convolutional Neural Networks for Diverse Datasets}. Information Technology and Management Science, 20(1), pp. 20-24. Retrieved 14 Jan. 2018. https://doi.org/10.1515/itms-2017-0003
 
 \end{enumerate}
-
-%\hrule
-%\vspace{-0.4em}
-%\subsection*{Reviewing}
-%
-%\begin{itemize}
-%	\parskip=0.1em
-%	
-%	\item 
-%	\headerrow
-%		{Reviewer SemEval-2016 Task 5: Aspect-based Sentiment Analysis}
-%
-%\end{itemize}
-
-\hrule
-\vspace{-0.4em}
-\subsection*{Talks}
-
-\begin{itemize}
-	\parskip=0.1em
-	
-	\item Natural Language Processing Copenhagen Meetup Talk, May 2017: Transfer Learning for NLP\footnote{\url{https://www.slideshare.net/SebastianRuder/transfer-learning-for-natural-language-processing}}
-	
-	\item Accenture Tech Talk, March 2017: Transfer Learning -- The Next Frontier for Machine Learning
-	
-	\item LinkedIn Tech Talk, March 2017: Transfer Learning -- The Next Frontier for Machine Learning\footnote{\url{https://www.slideshare.net/SebastianRuder/transfer-learning-the-next-frontier-for-machine-learning}}
-	
-	\item NLP Dublin meetup, December 2016: NIPS 2016 Highlights\footnote{\url{http://www.slideshare.net/SebastianRuder/nips-2016-highlights-sebastian-ruder}}
-	
-	\item INSIGHT SIG NLP meetup, August 2016: A Hierarchical Model of Reviews for Aspect-based Sentiment Analysis\footnote{\url{http://www.slideshare.net/SebastianRuder/a-hierarchical-model-of-reviews-for-aspectbased-sentiment-analysis}}
-	
-	\item NLP Dublin meetup, August 2016: Softmax Approximations for Learning Word Embeddings and Language Modelling\footnote{\url{http://www.slideshare.net/SebastianRuder/softmax-approximations-for-learning-word-embeddings-and-language-modeling-sebastian-ruder}}
-	
-\end{itemize}
 
 \end{document}
 
